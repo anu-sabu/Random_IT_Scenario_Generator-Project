@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "b70d4d7d-ed47-4121-84d4-d87b7a9cc3e9",
+		"name": "NHS_Random_Scenario_Generator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34719485"
+	},
+	"item": [
+		{
+			"name": "Post_Method",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"technology\": \"Engineer\",\r\n    \"role\": \"Software Engineer\",\r\n    \"environment\": \"Cloud Infrastructure\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/scenario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"scenario"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
